@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'HUFFER'; /* название шрифта */
+    src: url(../fonts/HUFFER.ttf); /* ссылка на файл */
+  }
+
+  @font-face {
+    font-family: 'TeletactileLatCyr'; /* название шрифта */
+    src: url(../fonts/TeletactileRus.ttf); /* ссылка на файл */
+  }
+
+  @font-face {
+    font-family: 'ZT_formom'; /* название шрифта */
+    src: url(../fonts/ZT_formom\ \(1\)/.ttf); /* ссылка на файл */
+  }

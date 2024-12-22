@@ -1,0 +1,57 @@
+html {
+    background-color: black;
+  }
+
+  body {
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  section:nth-of-type(5) {
+    overflow: visible;
+  }
+
+  h1{
+    font-family: TeletactileLatCyr;
+    font-size: 87.76px;
+    display: flex;
+    position: relative;
+    width: 279px;
+    height: 79px;
+    margin: 25.301px 0 0 296.096px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 78.986px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 155;
+  }
+
+  .viatkatech_wrap {
+    font-family: Haffer;
+    font-size: 27.09px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 93px;
+    height: 48px;
+    color: #ffffff;
+    font-family: Haffer, var(--default-font-family);
+    font-size: 27.086402893066406px;
+    font-weight: 570;
+    line-height: 24.378px;
+    text-align: left;
+    text-transform: uppercase;
+    z-index: 23;
+  }
