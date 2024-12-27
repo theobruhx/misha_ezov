@@ -562,14 +562,14 @@ body, html {
 
 .star_img3 {
   position: absolute; 
-  top: 120vh;
+  top: 111.5vh;
   left: 1vw;
   z-index: 2; 
 }
 
 .aud_3 {
   position: absolute; 
-  top: 122.5vh;
+  top: 113.5vh;
   left: 12.5vw; 
   color: #EA00FF;
   background-color: #70047F;
@@ -582,23 +582,40 @@ body, html {
 }
 
 .big_3 {
-
+  position: absolute; 
+  top: 118vh;
+  left: 2vw; 
+  color: #EA00FF;
+  -webkit-text-stroke: 0.4vw #634C00;
+  font-size: 53.30vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2; 
 }
 
 .small_3 {
-  
+  position: absolute; 
+  top: 106.6vh;
+  left: 30.6vw; 
+  color: #A100A6;
+  font-size: 32.46vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2; 
 }
 
 .star_img4 {
   position: absolute; 
-  top: 120vh;
+  top: 111.5vh;
   left: 50vw;
   z-index: 2; 
 }
 
 .aud_4 {
   position: absolute; 
-  top: 122.5vh;
+  top: 113.5vh;
   left: 61.5vw; 
   color: #FF3700;
   background-color: #7F2107;
@@ -611,25 +628,83 @@ body, html {
 }
 
 .big_4 {
-
+  position: absolute; 
+  top: 118vh;
+  left: 51.9vw; 
+  color: #FF3700;
+  -webkit-text-stroke: 0.4vw #634C00;
+  font-size: 53.30vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2; 
 }
 
 .small_4 {
-  
+  position: absolute; 
+  top: 106.6vh;
+  left: 80.6vw; 
+  color: #AF0000;
+  font-size: 32.46vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2; 
 }
 
   .section5 {
-    background-image: url(../img/selection5/stripes_red.svg);
+    
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 100vw;
+    height: 59.32vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    height: auto;
     overflow: hidden;
   }
 
+  .stripes_red {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    min-height: 20vw;
+    z-index: 1;
+    margin-top: -14vw;
+  }
 
+  .img_starname {
+
+  }
+
+  .designed {
+    
+  }
+
+  .misha {
+
+  }
+
+  .zavod_red {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7vw;
+  top: 45vh;
+  left: 27vw; 
+  font-family: 'TeletactileLatCyr'; 
+  color: white; 
+  background-color: #F13032;
+  max-width: 100%;
+  z-index: 3;
+  animation: f1t3 3.5s linear infinite;
+  animation-timeline: auto;
+  }
 
