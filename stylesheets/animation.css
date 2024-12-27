@@ -1,0 +1,164 @@
+@keyframes updown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes bounce1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(35%, 65%);
+    }
+    50% {
+      transform: translate(54%, 0);
+    }
+    75% {
+      transform: translate(35%, -65%);
+    }
+  }
+
+  @keyframes bounce2 {
+    0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-55%, 80%);
+  }
+  50% {
+    transform: translate(-60%, 0);
+  }
+  75% {
+    transform: translate(-55%, 80%);
+  }
+  }
+
+  @keyframes bounce3 {
+    0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(44%, 85%);
+  }
+  50% {
+    transform: translate(-60%, 0);
+  }
+  75% {
+    transform: translate(44%, 85%);
+  }
+  }
+
+  @keyframes bounce4 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(44%, 85%);
+    }
+    50% {
+      transform: translate(-60%, 0);
+    }
+    75% {
+      transform: translate(44%, 85%);
+    }
+  }
+
+  @keyframes bounce5 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(35%, 65%);
+    }
+    50% {
+      transform: translate(54%, 0);
+    }
+    75% {
+      transform: translate(35%, -65%);
+    }
+  }
+
+  @keyframes bounce6 {
+    0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(44%, 85%);
+  }
+  50% {
+    transform: translate(-60%, 0);
+  }
+  75% {
+    transform: translate(44%, 85%);
+  }
+  }
+
+  @keyframes bounce7 {
+    0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-70%, 80%);
+  }
+  50% {
+    transform: translate(-30%, 0);
+  }
+  75% {
+    transform: translate(-70%, -80%);
+  }
+  }
+
+  @keyframes bounce8 {
+    0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(44%, 85%);
+  }
+  50% {
+    transform: translate(-60%, 0);
+  }
+  75% {
+    transform: translate(44%, 85%);
+  }
+  }
+
+  @keyframes bounce9 {
+    0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(44%, 85%);
+  }
+  50% {
+    transform: translate(-60%, 0);
+  }
+  75% {
+    transform: translate(44%, 85%);
+  }
+  }
+
+  @keyframes zavod {
+    0% {
+        transform: translateX(0); 
+    }
+    50% {
+        transform: translateX(-10vw); 
+    }    
+    70% {
+        transform: translateX(5vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }

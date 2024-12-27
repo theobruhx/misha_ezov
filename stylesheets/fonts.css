@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'HUFFER'; /* название шрифта */
-    src: url(../fonts/HUFFER.ttf); /* ссылка на файл */
+    font-family: 'Inter-Regular'; /* название шрифта */
+    src: url(../fonts/Inter-Regular.otf); /* ссылка на файл */
   }
 
   @font-face {
