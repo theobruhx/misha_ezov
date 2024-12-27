@@ -192,3 +192,60 @@
     90%  {transform: translate(2px, -2px);}
     100% {transform: translate(0px, 0px);} 
   }
+
+  @keyframes conference {
+    0% {
+        color: #ffffff;
+    }
+    50% {
+        color: #000000;
+    }
+    100% {
+        color: #ffffff;
+    }
+  }
+
+  @keyframes f2t1 {
+    0% {
+        transform: translateY(0); 
+    }
+    20% {
+        transform: translateY(-5vw); 
+    }    
+    60% {
+        transform: translateY(-10vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+
+  @keyframes f2t3 {
+    0% {
+        transform: translateY(0); 
+    }
+    20% {
+        transform: translateY(-5vw); 
+    }  
+    50% {
+        transform: translateY(10vw);
+    }  
+    100% {
+        transform: translateY(0);
+    }
+  }
+
+  @keyframes f5t2 {
+    0% {
+        transform: translateY(0); 
+    }  
+    60% {
+        transform: translateY(8vw);
+    }
+    70% {
+        transform: rotateY(15vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
