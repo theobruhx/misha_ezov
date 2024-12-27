@@ -75,6 +75,26 @@ body, html {
 }
 
 .viatkatech_wrap {
+  position: absolute; 
+  top: 15vh;
+  left: 13vw; 
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  line-height: 1.2vw;
+  text-align: left;
+  z-index: 2;  
+  animation: bounce9 3s infinite linear;
+} 
+
+  .line2 {
+    display: block; 
+    margin: 0;
+  }
+
+  .conference_text {
     position: absolute; 
     top: 15vh;
     left: 13vw; 
@@ -82,10 +102,11 @@ body, html {
     font-size: 1.3vw;
     font-family: 'Inter-Regular';
     font-weight: 570;
-    line-height: 0.8vw;
     text-align: center;
-    z-index: 2;
-    animation: bounce9 3s infinite linear;
+    line-height: 1.2vw;
+    text-align: left;
+    z-index: 2;  
+    background-color: rgb(241, 48, 50);
   }
 
   .number2 {
@@ -93,6 +114,7 @@ body, html {
     top: 84vh;
     left: 16vw;
     color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
     font-size: 2.3vw;
     font-family: 'Inter-Regular';
     font-weight: 570;
@@ -106,12 +128,12 @@ body, html {
       top: 41vh;
       left: 5vw; 
       color: white;
+      background-color: rgba(255, 255, 255, 0.1);
       font-size: 2.3vw;
       font-family: 'Inter-Regular';
       font-weight: 570;
-      line-height: 0.8vw;
       text-align: center;
-      z-index: 3;
+      z-index: 2;
       animation: bounce7 3s infinite linear;
   }
 
@@ -120,13 +142,13 @@ body, html {
       top: 103vh;
       left: 39vw; 
       color: white;
+      background-color: rgba(255, 255, 255, 0.1);
       font-size: 2.3vw;
       font-family: 'Inter-Regular';
       font-weight: 570;
-      line-height: 0.8vw;
       text-align: center;
       z-index: 3;
-      animation: bounce6 2s infinite linear;
+      animation: star 0.5s linear infinite;
   }
 
   .number_star2 {
@@ -134,13 +156,13 @@ body, html {
     top: 34vh;
     left: 62vw; 
     color: white;
+    background-color: rgba(255, 255, 255, 0.1);
     font-size: 2.3vw;
     font-family: 'Inter-Regular';
     font-weight: 570;
-    line-height: 0.8vw;
     text-align: center;
     z-index: 3;
-    animation: bounce5 3s infinite linear;
+    animation: star 0.5s linear infinite;
 }
 
 .number_star3 {
@@ -148,13 +170,13 @@ body, html {
   top: 84vh;
   left: 94vw; 
   color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   font-size: 2.3vw;
   font-family: 'Inter-Regular';
   font-weight: 570;
-  line-height: 0.8vw;
   text-align: center;
   z-index: 3;
-  animation: bounce4 2s infinite linear;
+  animation: star 0.5s linear infinite;
 }
 
   .number3 {
@@ -162,10 +184,10 @@ body, html {
     top: 113vh;
     left: 3vw; 
     color: white;
+    background-color: rgba(255, 255, 255, 0.1);
     font-size: 2.3vw;
     font-family: 'Inter-Regular';
     font-weight: 570;
-    line-height: 0.8vw;
     text-align: center;
     z-index: 10;
     animation: bounce3 3s infinite linear;
@@ -176,10 +198,10 @@ body, html {
   top: 46vh;
   left: 84vw; 
   color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   font-size: 2.3vw;
   font-family: 'Inter-Regular';
   font-weight: 570;
-  line-height: 0.8vw;
   text-align: center;
   z-index: 10;
   animation: bounce2 2s infinite linear;
@@ -190,10 +212,10 @@ body, html {
   top: 113vh;
   left: 93vw; 
   color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   font-size: 2.3vw;
   font-family: 'Inter-Regular';
   font-weight: 570;
-  line-height: 0.8vw;
   text-align: center;
   z-index: 10;
   animation: bounce1 3s infinite linear;
@@ -210,41 +232,137 @@ body, html {
 .face1 {
   width: 50%;
   object-fit: cover;
+  z-index: 1;
 }
 
 .face2 {
   width: 60%;
   object-fit: cover;
+  z-index: 1;
 }
 
 .face3 {
   object-fit: cover;
   width: 50%;
   height: auto;
+  z-index: 1;
 }
 
 .face4 {
   width: 60%;
   object-fit: cover;
+  z-index: 1;
 }
 
 .face5 {
   object-fit: cover;
   width: 50%;
   height: auto;
+  z-index: 1;
 }
 
-  .img_number1 {
-    width: 100%;
-    height: auto;
-    z-index: 1;
-  }
+.f1t1 {
+    position: absolute; 
+    top: 4vh;
+    left: 2vw; 
+    color: white;
+    font-size: 1.9vw;
+    font-family: 'Inter-Regular';
+    font-weight: 570;
+    line-height: 0.8vw;
+    text-align: center;
+    z-index: 2;
+    animation: f1t1 5s infinite linear;
+}
 
-  .img_star {
-    width: 10vw; 
-    max-width: 20%; 
-    height: auto; 
-  }
+.f1t2 {
+  position: absolute; 
+  top: 50vh;
+  left: 33vw; 
+  color: white;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  line-height: 0.8vw;
+  text-align: center;
+  z-index: 2;
+  animation: f1t2 5s infinite linear;
+}
+
+.f1t3 {
+  position: absolute; 
+  top: 20vh;
+  left: 6vw; 
+  color: white;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  line-height: 0.8vw;
+  text-align: center;
+  z-index: 2; 
+  animation: f1t3 3.5s linear infinite;
+  animation-timeline: auto;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  gap: 2vw;
+}
+
+.img_number1 {
+  width: 45%; 
+  z-index: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative; 
+  overflow: hidden;
+}
+
+.img_number2 {
+  width: 45%; 
+  z-index: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative; 
+  overflow: hidden;
+}
+
+.img_number3 {
+  width: 45%; 
+  z-index: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative; 
+  overflow: hidden;
+}
+
+.img_number4 {
+  width: 45%; 
+  z-index: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative; 
+  overflow: hidden;
+}
+
+.img_star1 {
+  position: absolute; 
+  top: 5%; 
+  left: 5%; 
+  width: 20%; 
+  height: auto; 
+  pointer-events: none;
+  z-index: 2; 
+}
 
   .section5 {
     background-image: url(../img/selection5/stripes_red.svg);
@@ -259,89 +377,6 @@ body, html {
     overflow: hidden;
   }
 
-  /* .nine_wrap {
-    position: absolute; 
-    top: 35vh;
-    left: 7vw; 
-    color: white;
-    font-size: 3.5vw;
-    font-family: 'Haffer';
-    font-weight: 570;
-    text-transform: uppercase;
-    text-align: center;
-  }
+ /* <img class="img_star1" src="./img/selection4/star1.svg"> */
 
-  .two_wrap {
-    position: absolute; 
-    top: 60vh;
-    left: 17vw; 
-    color: white;
-    font-size: 3.5vw;
-    font-family: 'Haffer';
-    font-weight: 570;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  .three_wrap {
-    position: absolute; 
-    top: 90vh;
-    left: 5vw; 
-    color: white;
-    font-size: 3.5vw;
-    font-family: 'Haffer';
-    font-weight: 570;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  .star_wrap {
-    position: absolute; 
-    top: 89vh;
-    left: 38vw; 
-    color: white;
-    font-size: 3.5vw;
-    font-family: 'Haffer';
-    z-index: 1;
-  }
-
-  .star2_wrap {
-    position: absolute; 
-    top: 30vh;
-    left: 58vw; 
-    color: white;
-    font-size: 3.5vw;
-    font-family: 'Haffer';
-    z-index: 1;
-  }
-
-  .star3_wrap {
-    position: absolute; 
-    top: 75vh;
-    left: 75vw; 
-    color: white;
-    font-size: 3.5vw;
-    font-family: 'Haffer';
-    z-index: 1;
-  }
-
-.f_wrap {
-  position: absolute; 
-  top: 32vh;
-  left: 85vw;
-  color: white;
-  font-size: 3.5vw;
-  font-family: 'Haffer';
-  z-index: 1;
-}
-
-.eightseven_wrap {
-  position: absolute; 
-  top: 93vh;
-  left: 89vw;
-  color: white;
-  font-size: 3.5vw;
-  font-family: 'Haffer';
-  z-index: 1;
-} */
 
