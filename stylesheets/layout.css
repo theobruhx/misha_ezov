@@ -489,7 +489,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   align-items: baseline;
 }
 
@@ -499,7 +498,6 @@ section {
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden;
 }
 
 .number_4 {
@@ -508,7 +506,6 @@ section {
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden;
 }
 
 .number_4::after {
@@ -681,7 +678,7 @@ section {
   font-weight: 570;
   line-height: 4vw;
   text-align: left;
-  z-index: 2;
+  z-index: 4;
 }
 
 .big_4 {

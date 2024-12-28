@@ -1,0 +1,173 @@
+/* Базовые стили (общие для всех устройств) */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  width: 100%;
+}
+
+/* Full HD: 1920x1080 */
+@media (min-width: 1920px) {
+  body {
+    font-size: 18px;
+  }
+  .section1 {
+    height: 100vh;
+  }
+  .zavod {
+    font-size: 8vw;
+  }
+  .numbers {
+    margin-top: 20vh;
+  }
+}
+
+/* 1440x900 (MacBook Pro ’15) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  body {
+    font-size: 16px;
+  }
+  .section1 {
+    height: 80vh;
+  }
+  .zavod {
+    font-size: 7vw;
+  }
+  .numbers {
+    margin-top: 25vh;
+  }
+}
+
+/* 1280x900 WXGA+ */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  body {
+    font-size: 15px;
+  }
+  .section1 {
+    height: 70vh;
+  }
+  .zavod {
+    font-size: 6.5vw;
+  }
+  .numbers {
+    margin-top: 30vh;
+  }
+}
+
+/* 1366x768 WXGA */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  body {
+    font-size: 14px;
+  }
+  .section1 {
+    height: 65vh;
+  }
+  .zavod {
+    font-size: 6vw;
+  }
+  .numbers {
+    margin-top: 35vh;
+  }
+}
+
+/* 1024x768 XGA */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 13px;
+  }
+  .section1 {
+    height: 60vh;
+  }
+  .zavod {
+    font-size: 5.5vw;
+  }
+  .numbers {
+    flex-direction: column;
+    margin-top: 40vh;
+  }
+  .number_1,
+  .number_2,
+  .number_3,
+  .number_4 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet: 768x1024 */
+@media (min-width: 414px) and (max-width: 767px) {
+  body {
+    font-size: 12px;
+  }
+  .section1 {
+    height: 50vh;
+  }
+  .zavod {
+    font-size: 5vw;
+  }
+  .numbers {
+    flex-direction: column;
+    margin-top: 50vh;
+  }
+  .number_1,
+  .number_2,
+  .number_3,
+  .number_4 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile: 414x896 (iPhone) */
+@media (min-width: 360px) and (max-width: 414px) {
+  body {
+    font-size: 11px;
+  }
+  .section1 {
+    height: 40vh;
+  }
+  .zavod {
+    font-size: 4vw;
+  }
+  .numbers {
+    flex-direction: column;
+    margin-top: 60vh;
+  }
+  .number_1,
+  .number_2,
+  .number_3,
+  .number_4 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile: 360x640 (Android) */
+@media (max-width: 359px) {
+  body {
+    font-size: 10px;
+  }
+  .section1 {
+    height: 30vh;
+  }
+  .zavod {
+    font-size: 3.5vw;
+  }
+  .numbers {
+    flex-direction: column;
+    margin-top: 70vh;
+  }
+  .number_1,
+  .number_2,
+  .number_3,
+  .number_4 {
+    width: 100%;
+    height: auto;
+  }
+}
