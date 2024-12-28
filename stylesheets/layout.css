@@ -511,6 +511,19 @@ section {
   overflow: hidden;
 }
 
+.number_4::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  aspect-ratio: 4.4;
+  background-image: url('../img/selection4/bot_red.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: -20%;
+  left: 0;
+  z-index: 8;
+}
+
 .img_number1,
 .img_number2,
 .img_number3,
@@ -526,8 +539,8 @@ section {
 .star_img2,
 .star_img3,
 .star_img4 {
-  top: 0;
-  left: 0;
+  top: 2.5%;
+  left: 1.5%;
   width: 15%;
   aspect-ratio: 1;
   position: absolute;
@@ -536,8 +549,8 @@ section {
 
 .aud_1 {
   position: absolute;
-  top: 2%;
-  left: 15%;
+  top: 3%;
+  left: 18%;
   color: #ff0000;
   background-color: #780303;
   font-size: 4.87vw;
@@ -550,7 +563,7 @@ section {
 
 .big_1 {
   position: absolute;
-  bottom: -25%;
+  bottom: -15%;
   left: 9%;
   color: #ff0000;
   -webkit-text-stroke: 0.5vw #634c00;
@@ -564,7 +577,7 @@ section {
 
 .small_1 {
   position: absolute;
-  bottom: 37%;
+  bottom: 38.8%;
   left: 70%;
   color: #af0000;
   font-size: 32.46vw;
@@ -572,12 +585,13 @@ section {
   font-weight: 570;
   text-align: center;
   z-index: 2;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
 }
 
 .aud_2 {
   position: absolute;
-  top: 2%;
-  left: 15%;
+  top: 3%;
+  left: 18%;
   color: #ff2f00;
   background-color: #7a2704;
   font-size: 4.87vw;
@@ -590,8 +604,8 @@ section {
 
 .big_2 {
   position: absolute;
-  bottom: -24%;
-  left: 0%;
+  bottom: -15%;
+  left: 4%;
   color: #ff0000;
   -webkit-text-stroke: 0.5vw #634c00;
   font-size: 53.3vw;
@@ -599,11 +613,12 @@ section {
   font-weight: 570;
   text-align: center;
   z-index: 2;
+  animation: big1 2s linear infinite;
 }
 
 .small_2 {
   position: absolute;
-  bottom: 37%;
+  bottom: 38.8%;
   left: 62%;
   color: #af0000;
   font-size: 32.46vw;
@@ -611,12 +626,13 @@ section {
   font-weight: 570;
   text-align: center;
   z-index: 2;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
 }
 
 .aud_3 {
   position: absolute;
-  top: 2%;
-  left: 15%;
+  top: 3%;
+  left: 18%;
   color: #ea00ff;
   background-color: #70047f;
   font-size: 4.87vw;
@@ -629,8 +645,8 @@ section {
 
 .big_3 {
   position: absolute;
-  bottom: -24%;
-  left: 0%;
+  bottom: -15%;
+  left: 4%;
   color: #ea00ff;
   -webkit-text-stroke: 0.4vw #634c00;
   font-size: 53.3vw;
@@ -638,11 +654,12 @@ section {
   font-weight: 570;
   text-align: center;
   z-index: 2;
+  animation: big1 2s linear infinite;
 }
 
 .small_3 {
   position: absolute;
-  bottom: 37%;
+  bottom: 38.8%;
   left: 62%;
   color: #a100a6;
   font-size: 32.46vw;
@@ -650,12 +667,13 @@ section {
   font-weight: 570;
   text-align: center;
   z-index: 2;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
 }
 
 .aud_4 {
   position: absolute;
-  top: 2%;
-  left: 15%;
+  top: 3%;
+  left: 18%;
   color: #ff3700;
   background-color: #7f2107;
   font-size: 4.87vw;
@@ -668,8 +686,8 @@ section {
 
 .big_4 {
   position: absolute;
-  bottom: -24%;
-  left: 0%;
+  bottom: -15%;
+  left: 4%;
   color: #ff3700;
   -webkit-text-stroke: 0.4vw #634c00;
   font-size: 53.3vw;
@@ -677,11 +695,12 @@ section {
   font-weight: 570;
   text-align: center;
   z-index: 2;
+  animation: big1 2s linear infinite;
 }
 
 .small_4 {
   position: absolute;
-  bottom: 37%;
+  bottom: 38.8%;
   left: 62%;
   color: #af0000;
   font-size: 32.46vw;
@@ -689,6 +708,7 @@ section {
   font-weight: 570;
   text-align: center;
   z-index: 2;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
 }
 
 .section5 {
